@@ -11,11 +11,28 @@ html {
     color: rgb(50, 50, 50);
 }
 
-h1 {
-    font-style: italic;
-}
-
 img {
     border-radius: 50px;
     height: 300px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-button {
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+
+
+.pink{
+    background-color: rgb(255, 195, 195);
 }
