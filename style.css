@@ -11,6 +11,15 @@ html {
     color: rgb(50, 50, 50);
 }
 
+h1 {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+a{
+    cursor: pointer;
+}
+
 img {
     border-radius: 50px;
     height: 300px;
@@ -31,8 +40,13 @@ body {
     cursor: pointer;
   }
 
+  .color-button:active {
+    transform: scale(0.98);
+  }
+
 
 
 .pink{
     background-color: rgb(255, 195, 195);
+    color: white;
 }
